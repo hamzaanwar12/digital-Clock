@@ -1,0 +1,65 @@
+:root{
+    background: url("../simple\ clock/different interval.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    color:#9cff92de;
+    font-family: 'Teko', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1{
+    font-size:3rem;
+    text-align: center;
+    text-shadow:2px 2px 3px chartreuse ;
+    width: 30%;
+    margin: 1.9rem auto;
+}
+
+body div{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#Time{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    margin: auto;
+    text-align: justify;
+}
+
+#Time h1{
+    width: 15%;
+    margin: 0px;
+}
+
+#mainStream{
+    border: 5px solid red ;
+    width:60%;
+    margin: 5rem auto;
+    display: flex;
+
+}
+
+#empty{
+    width:15%;
+    font-size: 15px;
+    text-shadow: none;
+
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+}
+
+#info h1{
+    background-color: burlywood;
+    width: 25%;
+    height: 3.7rem;
+}
